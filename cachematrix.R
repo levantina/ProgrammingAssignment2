@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x=matrix()) {
 		 getInverse = getInverse)
 }
 
-## cacheSolve calculates the inverse of that spacial matrix and
+## cacheSolve calculates the inverse of that special matrix and
 ## if the matrix inverse has already been calculated, cacheSolve will 
 ## find it in the cache and return it (to avoid calculating the inverse again)
 
